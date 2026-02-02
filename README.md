@@ -119,8 +119,7 @@ To customize the appearance:
 
 ## 👤 Author
 
-Sheikh Ahasunul Islam
-Your Name - [@SKahasun](https://github.com/SKahasun)
+Sheikh Ahasunul Islam [@SKahasun](https://github.com/SKahasun)
 
 ## 🙏 Acknowledgments
 
