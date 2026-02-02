@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="top-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <aside class="side-menu">
+            <h3>Side Menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, please feel free to contact us the form below</p>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label>First Name</label>
+                            <input type="text" name="fname" required>
+                        </div>
+                        <div class="col">
+                            <label>Last Name</label>
+                            <input type="text" name="lname" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label>Password</label>
+                            <input type="password" name="password" required>
+                        </div>
+                        <div class="col">
+                            <label>Verify Password</label>
+                            <input type="password" name="password" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label>Email</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        <div class="col">
+                            <label>Phone</label>
+                            <input type="text" name="phone" required>
+                        </div>
+                        <div class="col">
+                            <label>WebSite</label>
+                            <input type="url" name="url" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label>Age</label>
+                            <input type="text" name="age" required>
+                        </div>
+                        <div class="col">
+                            <label>Birth Day</label>
+                            <input type="date" name="dob" required>
+                        </div>
+                        <div class="col">
+                            <label>Appointment</label>
+                            <input type="time" name="appointment" required>
+                        </div>
+                        <div class="col">
+                            <label>Volume</label>
+                            <input type="range" name="volume" required style="accent-color: blue;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label>Gender:</label>
+                            <div class="inline-group">
+                                <label><input type="radio" name="gender"> Male</label>
+                                <label><input type="radio" name="gender"> Female</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label>Hobbies:</label>
+                            <div class="inline-group">
+                                <label><input type="checkbox"> Reading</label>
+                                <label><input type="checkbox"> Traveling</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label>Favorite</label>
+                            <input type="color" class="color-picker">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label>Country</label>
+                            <select>
+                                <option>Bangladesh</option>
+                                <option>Nepal</option>
+                                <option>Bhutan</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label>Upload File</label>
+                            <input type="file" name="file" required>
+                        </div>
+                        <div class="col">
+                            <label>Bio</label>
+                            <textarea rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="button-container">
+                        <button type="submit" class="btn btn-submit">Submit</button>
+                        <button type="reset" class="btn btn-reset">Reset</button>
+                    </div>
+
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>
